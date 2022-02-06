@@ -1,0 +1,127 @@
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  background: rgb(238,174,202);
+  background: linear-gradient(9deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  margin: 0;
+  font-size: 1rem;
+}
+
+.wrapper {
+  margin: auto;
+  justify-content: center;
+  width: 50%;
+  height: 100vh
+}
+
+.container {
+  position: relative;
+  top: 30%;
+  display: grid;
+  background: #ffffff;
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.nav {
+  background: #effffe;
+  padding: .5rem 1rem;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav-divider {
+  color: #c0c0c0;
+}
+
+.nav a {
+  color: darkturquoise;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+.content .big-info {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.content {
+  padding: .5rem 1rem;
+}
+
+.content a {
+  color: darkturquoise;
+  text-decoration: none;
+}
+
+.content a:hover {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+.content p {
+  line-height: 1.25rem;
+}
+
+.content hr {
+  border: 1px dashed #bccdce;
+}
+
+.hmu {
+  display: grid;
+  padding: .5rem 1rem;
+  font-size: .8rem;
+}
+
+.contact {
+  grid-column: 1;
+}
+
+.contact a {
+  color: darkturquoise;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+.socials {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.socials ul {
+  padding-left: 0;
+  list-style-type: none;  
+}
+
+.socials li {
+  display: inline-block;
+}
+
+.socials a {
+  color: darkturquoise;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+.social-divider {
+  line-height: 10px;
+  display: inline-block;
+}
