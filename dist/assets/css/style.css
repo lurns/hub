@@ -7,6 +7,13 @@ body {
   font-size: 1rem;
 }
 
+code {
+  font-family: 'Ubuntu Mono', monospace;
+  color: slategray;
+  background-color: #f9efff;
+  padding: .1em .25em;
+}
+
 .wrapper {
   margin: auto;
   justify-content: center;
@@ -56,7 +63,7 @@ body {
 }
 
 .content .small-info {
-  font-size: .8rem;
+  font-size: .9rem;
   line-height: 1rem;
 }
 
